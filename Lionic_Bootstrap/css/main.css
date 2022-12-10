@@ -112,12 +112,23 @@ header {
   text-align: center;
 }
 
+/* section-do */
+
+.section-do {
+  padding-bottom: 150px;
+}
+
 .section-do-description {
   text-align: center;
   padding-top: 5px;
   padding-bottom: 20px;
 }
 
+.section-do-item {
+  padding: 0 20px 0 20px;
+  border: 1px solid gray;
+  border-radius: 15px;
+}
 /* .section-do-list {
   display: flex;
   justify-content: space-between;
@@ -129,11 +140,12 @@ header {
   margin-right: auto;
  }
 
- /* .section-do-item{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
- } */
+ .section-do-item:hover {
+  background-color: #4086d3;
+  color: white;
+  stroke: white;
+  stroke-width: 1.5px;
+}
 
 .section-do-list li{
   border: solid 0.9px #dcdcdc;
@@ -179,18 +191,15 @@ header {
   margin-top: 150px;
 }
 
-.section-do-list li:hover {
-  background-color: #4086d3;
-  color: white;
-  stroke: white;
-  stroke-width: 1.5px;
-}
-
 h1, h2 {
   font-weight: 500;
 }
 
 /* Our Happy Clients */
+
+.section-clients {
+  padding-bottom: 150px;
+}
 
 .section-clients-heading {
   margin-top: 55px;
