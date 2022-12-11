@@ -17,6 +17,7 @@ body {
 
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .list-reset {
@@ -44,11 +45,17 @@ a {
 
 
 .site-btn {
+  border-radius: 4px;
   font-weight: 700;
   border: none;
   cursor: pointer;
   background: var(--orange);
   color: var(--white);
+}
+
+.site-btn:hover {
+  background-color: #E1670E;
+  transition: .4s linear;
 }
 
 .btn-reset {
@@ -100,7 +107,11 @@ a {
   font-weight: 600;
   font-size: 18px;
   color: var(--black-color);
+}
 
+.nav__item:hover {
+  color: var(--orange);
+  transition: 0.3s linear;
 }
 
 .search {
@@ -132,6 +143,8 @@ a {
   background-size: cover;
   background-position: center center;
 }
+
+
 
 .hero-content {
   max-width: 840px;
