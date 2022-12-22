@@ -1,0 +1,33 @@
+.svet {
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.js-btn {
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 35px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.svet-red {
+    background-color: red;
+}
+
+.svet-yellow {
+    background-color: yellow;
+}
+
+.svet-green {
+    background-color: green;
+}
